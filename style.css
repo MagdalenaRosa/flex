@@ -9,6 +9,8 @@ body {
   height: 48vh;
   display: flex;
   flex-direction: row;
+  /* overflow by nie wyskakiwało p z kontenera  */
+   overflow: hidden;
 }
 
 .container {
@@ -18,12 +20,13 @@ body {
 
 p {
   background-color: red;
-  height: 180px;
-  width: 180px;
+  height: 100px;
+  width:100px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2px;
+
 }
 
 .container2 p {
